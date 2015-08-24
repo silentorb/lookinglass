@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.2)
-project(lookinglass)
+project(include/lookinglass)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-add_library(lookinglass SHARED lookinglass/glass.cpp)
+#add_library(include/lookinglass SHARED include/lookinglass/glass.cpp)
 
 #set(output_dir ${PROJECT_SOURCE_DIR}/bin)
 #set_target_properties(lookinglass PROPERTIES
