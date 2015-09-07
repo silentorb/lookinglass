@@ -3,6 +3,7 @@ project(include/lookinglass)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
+include_directories(include)
 #add_library(include/lookinglass SHARED include/lookinglass/glass.cpp)
 
 #set(output_dir ${PROJECT_SOURCE_DIR}/bin)
